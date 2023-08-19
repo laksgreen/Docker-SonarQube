@@ -25,6 +25,7 @@ services:
     networks:
       - sonarqubenet
     environment:
+      POSTGRES_DB: "sonarqube"
       POSTGRES_USER: sonar
       POSTGRES_PASSWORD: sonar
     volumes:
